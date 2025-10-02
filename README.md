@@ -37,7 +37,7 @@ docker ps
 ```
 - to show your swiggy-clone container running.
 -  Then open 👉 http://localhost:3000
-![AWS EC2 Security Group](images/page.png)
+![AWS EC2 Security Group](images/3000.png)
 
 ## 3. Add Netdata for Monitoring
 ```bash
@@ -57,7 +57,7 @@ docker run -d --name=netdata `
 docker ps
 ```
 - show both swiggy-clone and netdata running.
-  [AWS EC2 Security Group](images/page.png)
+  ![AWS EC2 Security Group](images/docker-ps.png)
 - Then open 👉 http://localhost:19999
 
 ## 4.Access Local Dashboard
@@ -65,24 +65,23 @@ docker ps
 - Once the container is running, open:
 👉 http://localhost:19999
 - Now you should see the classic Netdata dashboard with a sidebar menu:
-  [AWS EC2 Security Group](images/page.png)
+  ![AWS EC2 Security Group](images/dashboard.png)
 - System → CPU
 - System → Memory
 - System → Disks
 - System → Network
 - Containers
 - Screenshot 1 → CPU usage
-[AWS EC2 Security Group](images/page.png)
+![AWS EC2 Security Group](images/cpu.png)
 - Screenshot 2 → Memory usage
- [AWS EC2 Security Group](images/page.png)
+ ![AWS EC2 Security Group](images/memory.png)
 - Screenshot 3 → Docker Container metrics
- [AWS EC2 Security Group](images/page.png)
+ ![AWS EC2 Security Group](images/docker.png)
+ ![AWS EC2 Security Group](images/d-c.png)
 - Screenshot 4 → Network activity
- [AWS EC2 Security Group](images/page.png)
-- Screenshot 5 → Health
- [AWS EC2 Security Group](images/page.png)
-- Screenshot 6 → Stopping containers
- [AWS EC2 Security Group](images/page.png)
+ ![AWS EC2 Security Group](images/Network.png)
+- Screenshot 5 → Traffic
+ ![AWS EC2 Security Group](images/traffic.png)
 
 ## 🧹 Cleanup Commands
 
@@ -101,3 +100,4 @@ docker stop swiggy-clone
 # Remove the Swiggy-clone container
 docker rm swiggy-clone
 ```
+ ![AWS EC2 Security Group](images/cleanup.png)
