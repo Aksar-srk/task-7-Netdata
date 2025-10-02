@@ -37,7 +37,7 @@ docker ps
 ```
 - to show your swiggy-clone container running.
 -  Then open 👉 http://localhost:3000
- [AWS EC2 Security Group](images/page.png)
+![AWS EC2 Security Group](images/page.png)
 
 ## 3. Add Netdata for Monitoring
 ```bash
